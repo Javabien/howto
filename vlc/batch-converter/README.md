@@ -12,3 +12,13 @@ For the official documentation about the different codecs: [here](https://wiki.v
 2. Run the script
 3. Copy the script `rename-files.sh` from this folder & place it in the folder of your converted files.
 4. Run the script
+**Note**: You can modify the parameters of the script from the header of the script `vlc-conerter.sh`:
+```sh
+######################## Transcode the files using ... ########################
+vcodec="mp2v"
+acodec="mpga"
+vb="1024"
+ab="312"
+mux="ps"
+###############################################################################
+```
