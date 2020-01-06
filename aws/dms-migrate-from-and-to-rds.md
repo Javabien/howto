@@ -79,7 +79,7 @@ In case the test fails, the response will say:
 ## Create replication task
 ```console
 aws dms create-replication-task \
---replication-task-identifier cs-acs-poc-mysql-to-postgres
+--replication-task-identifier poc-mysql-to-postgres
 --source-endpoint-arn arn:aws:dms:us-west-2:123:endpoint:JYDGBDBS2DSFG634DF \
 --target-endpoint-arn arn:aws:dms:us-west-2:123:endpoint:POAKSDFNBVZAFK31LA \
 --replication-instance-arn arn:aws:dms:us-west-2:123:rep:BS3IYAUSGPNXMQAENH2XWM7IEQ \
